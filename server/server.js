@@ -13,7 +13,7 @@ const app = express(),
   server = http.Server(app),
   io = socket(server, {
     cors: {
-      origin: "https://your-chess-frontend.vercel.app",
+      origin: "https://chess-frontend-lilac-psi.vercel.app/",
       methods: ["GET", "POST"],
     },
   });
