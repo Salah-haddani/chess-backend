@@ -13,7 +13,7 @@ const app = express(),
   server = http.Server(app),
   io = socket(server, {
     cors: {
-      origin: "",
+      origin: "*",
       methods: ["GET", "POST"],
     },
   });
