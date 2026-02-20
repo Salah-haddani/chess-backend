@@ -13,7 +13,7 @@ const app = express(),
   server = http.Server(app),
   io = socket(server, {
     cors: {
-      origin: "https://remoters-hub.vercel.app/",
+      origin: "",
       methods: ["GET", "POST"],
     },
   });
